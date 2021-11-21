@@ -1,0 +1,11 @@
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: https://dev.example.com/oauth2/default
+
+logging:
+  level:
+    root: info
